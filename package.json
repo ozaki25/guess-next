@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "next",
+    "build": "next build",
+    "export": "npm run build && next export -o guess"
+  },
   "dependencies": {
     "guess-webpack": "^0.1.8",
     "next": "^8.1.0",
