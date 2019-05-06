@@ -5,12 +5,11 @@ import Layout from '../components/layout';
 function About() {
   return (
     <Layout>
-      About
+      Guess.js is a library for predictive prefetching
       <br />
-      You can find the{' '}
-      <Link href="/media">
-        <a>media page here</a>
-      </Link>
+      for your applications. If you want to see Guess.js' logo
+      <br />
+      visit the <Link href="/media">media</Link> page.
     </Layout>
   );
 }
